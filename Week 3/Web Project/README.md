@@ -6,7 +6,7 @@
 *Agosto 2022, México, 26 de agosto*
 
 ## Contenido
-- [Descripción del proyecto](#descripción-del-juego)
+- [Descripción del proyecto](#descripción-del-proyecto)
 - [API info](#api-info)
 - [Insights sobre la API](#insights-sobre-la-api)
 - [Web Scraping](#web-scraping)
