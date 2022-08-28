@@ -1,9 +1,9 @@
 <img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
-# Mini Project 1 - Build your own game (Wordle)
+# Project: API & Web Data Scraping and Web Data Pipeline
 *Miguel Ángel Hernández Márquez*
 
-*Agosto 2022, México, 19 de agosto*
+*Agosto 2022, México, 26 de agosto*
 
 ## Contenido
 - [Descripción del juego](#descripción-del-juego)
