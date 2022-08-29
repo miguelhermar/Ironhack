@@ -6,31 +6,29 @@
 *Agosto 2022, México, 26 de agosto*
 
 ## Contenido
-- [Descripción del proyecto](#descripción-del-proyecto)
+- [Descripción del proyecto y librerías utilizadas](#descripción-del-proyecto-y-librerías-utilizadas)
 - [API info](#api-info)
 - [Insights sobre la API](#insights-sobre-la-api)
 - [Web Scraping](#web-scraping)
 
-## Descripción del proyecto
-El juego se trata de adivinar una palabra de cinco letras en seis intentos.
+## Descripción del proyecto y librerías utilizadas
+El objetivo del proyecto es recolectar los datos de la API del FBI sobre las piezas más robadas (art theft) y posteriormente realizar
+un web scraping para encontrar los lugares donde estas piezas han estado y en que año se han hecho o se han replicado. Las librerías utilizadas en este proyecto son las siguientes:
 
-1. Usaremos una lista de palabras con cinco letras y escogeremos una al azar que sea la palabra oculta.
-2. El usuario tendrá que adivinar la palabra oculta durante 6 intentos.
-3. Crearemos una variable que almacene el número de veces que el usuario intenta adivinar la palabra.
-4. Necesitamos también un condicional para cada uno de los resultados que arroje el input del usuario.
+- Requests: para hacer la solicitud HTTP de la url de la API.
+- Pandas: con el objetivo de estructurar los datos obtenidos en un dataframe y poder realizar un análisis básico de la información.
+- Beautiful Soup: para extraer los datos de los archivos HTML de las páginas web donde se hizo web scraping.
+- Re: con el fin de obtener información específica al hacer web scraping de diferentes páginas web. 
     
 ## API info
-- Si una letra se adivina correctamente y en la posición correcta --> ✅
-     
-- Si se adivina una letra correctamente pero está en la posición incorrecta --> 🔥
-     
-- Si una letra no está en la palabra oculta --> ❌
-
-En cualquier momnento el usuario puede obtener un hint si así lo desea, pero esto le descontará un intento del total de intentos que tiene. Para obtener un hint se necesita escribir "hint" en el prompt. Además, el usuario también puede escribir "me rindo" y automáticamente el juego terminará y podrá conocer la palabra oculta.
-
+Los datos de la API incluyen delitos relacionados con el arte y la propiedad cultural, tales como robo, fraude, saqueo y tráfico a través de fronteras estatales e internacionales. Los datos obtenidos por cada pieza de arte incluyen el material del que está hecho, título, categoría del crimen, medidas, descripción, entre otros.
 
 ## Insights sobre la API
-Para este juego utilizo una archivo de python (Wordle.py) donde están contenidas las clases del juego (Instrucciones y Juego) y sus funciones. Estas clases las importo en el jupyter notebook donde tendrá lugar el juego en sí. 
+Se empieza por hacer un breve análisis de los datos que se obtienen de la API. En este caso, se hizo un agrupamiento por categoría crimen, título y autor. Posteriormente, con el fin de obtener resultados más precisos se considera el agrupamiento tanto por título, autor y categorías. De esta manera, el resultado fue diferente a los previos, ya que se encontró que las mismas piezas del mismo autor habían sido robadas en varias ocasiones.
+  
 
 ## Web Scraping
- 
+Con estos últimos resultados, se realizó un web scraping de las top 3 piezas más robadas junto con sus autores en diferentes páginas web, con el objetivo de conocer alguno de los lugares donde se encontraban estas piezas, así como el año en que se han hicieron la original o la réplica. Estos fueron los resultados:
+1. Tyree Guyton: Faces in the Hood Series (Alabama, USA)
+2. Salvador Dalí: Lincoln in Dalivision (Miami, USA y Figueres, España)
+3. Claudius Ptolomeus: Cosmographia (Buckinghamshire, United Kingdom)
