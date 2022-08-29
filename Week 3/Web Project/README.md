@@ -15,10 +15,10 @@
 El objetivo del proyecto es recolectar los datos de la API del FBI sobre las piezas más robadas (art theft) y posteriormente realizar
 un web scraping para encontrar los lugares donde estas piezas han estado y en que año se han hecho o se han replicado. Las librerías utilizadas en este proyecto son las siguientes:
 
-- Requests: para hacer la solicitud HTTP de la url de la API.
-- Pandas: con el objetivo de estructurar los datos obtenidos en un dataframe y poder realizar un análisis básico de la información.
-- Beautiful Soup: para extraer los datos de los archivos HTML de las páginas web donde se hizo web scraping.
-- Re: con el fin de obtener información específica al hacer web scraping de diferentes páginas web. 
+- *Requests*: para hacer la solicitud HTTP de la url de la API.
+- *Pandas*: con el objetivo de estructurar los datos obtenidos en un dataframe y poder realizar un análisis básico de la información.
+- *Beautiful Soup*: para extraer los datos de los archivos HTML de las páginas web donde se hizo web scraping.
+- *Regular Expressions*: con el fin de obtener información específica al hacer web scraping de diferentes páginas web. 
     
 ## API info
 Los datos de la API incluyen delitos relacionados con el arte y la propiedad cultural, tales como robo, fraude, saqueo y tráfico a través de fronteras estatales e internacionales. Los datos obtenidos por cada pieza de arte incluyen el material del que está hecho, título, categoría del crimen, medidas, descripción, entre otros.
