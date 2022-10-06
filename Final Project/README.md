@@ -3,7 +3,7 @@
 # Final Project - Movie Recommendation System
 *Miguel Ángel Hernández Márquez*
 
-*06 de Octubre de 2022, México*
+*07 de Octubre de 2022, México*
 
 ## Contenido
 - [Project Description](#project-description)
