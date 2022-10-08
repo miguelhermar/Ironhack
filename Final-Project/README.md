@@ -24,4 +24,4 @@ N.A.: This recommendation system is **content-based**, meaning that the recommen
 
 ## Links
  
-[Trello](https://trello.com/en)  
+https://miguelhermar-i-final-projectfinalproject-streamlitscript-lz1oeo.streamlitapp.com/
