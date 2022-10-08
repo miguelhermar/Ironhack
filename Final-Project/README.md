@@ -24,4 +24,4 @@ N.A.: This recommendation system is **content-based**, meaning that the recommen
 
 ## Links
  
-https://miguelhermar-i-final-projectfinalproject-streamlitscript-lz1oeo.streamlitapp.com/
+[https://miguelhermar-i-final-projectfinalproject-streamlitscript-lz1oeo.streamlitapp.com/](https://miguelhermar-i-final-projectfinalproject-streamlitscript-myzj8w.streamlitapp.com/)
