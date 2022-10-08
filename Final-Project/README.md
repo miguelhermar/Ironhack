@@ -16,7 +16,7 @@
 
 Here's the final product: 
 
-![alt text](Desktop/finalproduct)
+![Final Product](data/finalproduct.png)
 
 ## Project Description
 
