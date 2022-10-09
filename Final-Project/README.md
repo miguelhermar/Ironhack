@@ -20,7 +20,7 @@
 
 ## Project Description
 
-In this project, I will use **The Movie Database API** to get information such as the plot, cast, crew, budget, and revenues of around 20,000 films.try to predict the score or the rating of a movie. The Movie Database API also provides access to data on many additional movies, actors and actresses, crew, members, and TV shows.
+In this project, I will use **The Movie Database API** to get information such as the plot, cast, crew, budget, and revenues of around 20,000 films. The Movie Database API also provides access to data on many additional movies, actors and actresses, crew, members, and TV shows.
 
 ## Objective
 
