@@ -1,5 +1,3 @@
-# Ironhack-Inicial
-First repository for Ironhack Bootcamp
-Nuevo cambio
-otro cambio el día 09 de agosto
-Daniela estuvo aqui
+# Ironhack Data Analytics Bootcamp
+
+Here you'll find all the labs and projects I've made over the course of 9 weeks of the Bootcamp.
